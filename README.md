@@ -24,7 +24,10 @@ docker-compose ps
 docker-compose exec web bash
 ```
 
-
+#### コンテナ内でサーバーを立てる 
+```
+rails s -b 0.0.0.0
+```
 
 #### Dockerfileで作ったDocker imageをrunする方法
 
