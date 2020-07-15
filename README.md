@@ -6,8 +6,23 @@ https://www.udemy.com/course/aidocker/learn/lecture/20295745#questions
 
 #### docker compose build
 
+```
+docker-compose build
+```
 
+#### docker-composeを使ってコンテナを立てる
+```
+docker-compose up -d
+```
 
+```
+docker-compose ps
+```
+
+#### コンテナに入る
+```
+docker-compose exec web bash
+```
 
 
 
