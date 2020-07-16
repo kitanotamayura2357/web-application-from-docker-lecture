@@ -3,6 +3,13 @@
 Udemy・米国AI開発者がゼロから教えるDocker講座の応用編第二弾のDocker compose を使って超本格Webアプリ開発環境の構築を実装する  
 https://www.udemy.com/course/aidocker/learn/lecture/20295745#questions
 
+## 構成
+
+- Ruby on Rails
+- Postgresql
+- Travis CI
+- Heroku
+
 
 #### docker compose build
 
@@ -29,6 +36,10 @@ docker-compose exec web bash
 rails s -b 0.0.0.0
 ```
 
+
+
+
+
 #### Dockerfileで作ったDocker imageをrunする方法
 
 ```
@@ -50,3 +61,14 @@ docker-compose exec <service>(docker execに対応)
 docker-compose up--build(buildしてrun)
 docker-compose down(stopしてrm)
 ```
+
+
+
+## CICDパイプライン
+
+#### Travis CI
+
+#### Heroku
+
+
+
