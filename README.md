@@ -68,7 +68,7 @@ docker-compose down(stopしてrm)
 
 #### Travis CI
 https://travis-ci.com/account/repositories
-
+https://travis-ci.com/github/kitanotamayura2357/web-application-from-docker-lecture
 #### Heroku
 
 
