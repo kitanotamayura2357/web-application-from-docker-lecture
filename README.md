@@ -5,10 +5,10 @@ https://www.udemy.com/course/aidocker/learn/lecture/20295745#questions
 
 ## 構成
 
-- Ruby on Rails
-- Postgresql
-- Travis CI
-- Heroku
+- webフレームワーク：Ruby on Rails
+- データベース：Postgresql
+- CICD:Travis CI
+- サーバー：Heroku
 
 
 #### docker compose build
