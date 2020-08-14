@@ -66,6 +66,19 @@ docker-compose down(stopしてrm)
 
 ## CICDパイプライン
 
+
+docker-composeの状態を調べる
+```
+docker-compose ps
+```
+コンテナができていなかったら以下のコマンドでコンテナを作る
+
+```
+docker-compose up -d
+```
+
+
+
 #### Travis CI
 https://travis-ci.com/account/repositories
 https://travis-ci.com/github/kitanotamayura2357/web-application-from-docker-lecture
